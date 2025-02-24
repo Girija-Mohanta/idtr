@@ -328,6 +328,9 @@ padding-bottom: 10px;
 .announcement_item:hover {
     transform: translateX(5px);
 }
+.announcement_item span{
+    text-wrap-mode: nowrap;
+}
 
 .list_item {
     display: flex;
