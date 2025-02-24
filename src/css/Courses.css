@@ -1,0 +1,122 @@
+.courses_section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.courses_title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.courses_subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.courses_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.course_card {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.course_card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #555;
+    transition: all 0.4s ease;
+    z-index: 0;
+}
+
+.course_card:hover::before {
+    left: 0;
+}
+
+.course_card:hover .course_name,
+.course_card:hover .course_description,
+.course_card:hover .course_icon {
+    color: #fff;
+}
+
+.course_card:hover {
+    border-bottom: 3px solid #ffcc00;
+}
+
+.course_icon {
+    font-size: 40px;
+    color: #cc0001;
+    transition: color 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.course_name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin: 15px 0;
+    transition: color 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.course_description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+    transition: color 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.enroll_button {
+    background: #cc0001;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.enroll_button:hover {
+    background: #ffcc00;
+    color: #cc0001;
+}
+
+@media (max-width: 768px) {
+    .courses_container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .courses_container {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}

@@ -1,0 +1,163 @@
+.why_choose_us {
+    width: 100%;
+    background: #f8f8f8;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why_choose_us .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.why_choose_us .section_title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.why_choose_us .section_subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.features_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature_card {
+    position: relative;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    z-index: 1;
+    color: #000;
+}
+
+.feature_card::before,
+.feature_card::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
+    z-index: -1;
+}
+
+.feature_card.dark {
+    background: #222;
+    color: #fff;
+}
+
+.feature_card.light {
+    background: #fff;
+    color: #000;
+}
+
+.feature_card:hover::before {
+    transform: skewX(-20deg) translateX(100%);
+    background: linear-gradient(135deg, #cc0001, #ff4b2b);
+}
+
+.feature_card:hover::after {
+    transform: skewX(-20deg) translateX(-100%);
+    background: linear-gradient(135deg, #ff4b2b, #cc0001);
+}
+
+.feature_card:hover {
+    transform: translateY(-5px);
+    color: #fff;
+}
+
+.feature_card.light:hover {
+    color: #000;
+}
+
+.feature_card.dark:hover {
+    color: #fff;
+}
+
+.feature_card.light .icon {
+    color: #000;
+}
+
+.why_choose_us .icon {
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 0.3s ease;
+}
+
+.feature_card.light .icon {
+    color: #000;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.feature_card.dark .icon {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.feature_card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.feature_card p {
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 1.6;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+    .why_choose_us .features_grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .why_choose_us .section_title {
+        font-size: 28px;
+    }
+
+    .why_choose_us .section_subtitle {
+        font-size: 16px;
+    }.why_choose_us .section_subtitle{
+        text-align: justify;
+    }
+}
+
+@media (max-width: 480px) {
+    .why_choose_us .features_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why_choose_us .section_title {
+        font-size: 26px;
+    }
+
+    .why_choose_us .section_subtitle {
+        font-size: 14px;
+    }
+}
