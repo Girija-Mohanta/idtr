@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bd091d2d.css",
-    "main.js": "/static/js/main.ec958a67.js",
+    "main.js": "/static/js/main.c620f69c.js",
     "static/js/453.c36bac44.chunk.js": "/static/js/453.c36bac44.chunk.js",
     "static/media/hero-banner.png": "/static/media/hero-banner.635fe76260e89d940bfc.635fe76260e89d940bfc.png",
     "static/media/idtr-main-gallery-25.png": "/static/media/030320230110142316idtr-main-gallery-25.49f42a628482e58f139f.png",
@@ -13,11 +13,11 @@
     "static/media/register.png": "/static/media/register.e2261406acf0c1aaae65.png",
     "index.html": "/index.html",
     "main.bd091d2d.css.map": "/static/css/main.bd091d2d.css.map",
-    "main.ec958a67.js.map": "/static/js/main.ec958a67.js.map",
+    "main.c620f69c.js.map": "/static/js/main.c620f69c.js.map",
     "453.c36bac44.chunk.js.map": "/static/js/453.c36bac44.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd091d2d.css",
-    "static/js/main.ec958a67.js"
+    "static/js/main.c620f69c.js"
   ]
 }

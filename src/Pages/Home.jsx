@@ -72,7 +72,7 @@ function Home() {
                 <div className="marquee_container">
                     <div className="marquee">
                         <p>{t("New Operating Hours for Woodlands Counter Service")}</p>
-                        <span> <FaRegCalendarAlt className="calendar-icon" /> 2022-09-02 </span>
+                        <span> <FaRegCalendarAlt className="calendar-icon" /> 02-09-2025 </span>
                     </div>
                 </div>
                 <div className=" more_imformation">
@@ -87,27 +87,27 @@ function Home() {
                     <div className="scrolling_announcements">
                         <div className="announcement_item">
                             <p>{t("Upcoming Driving Test Schedule Updated")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-20</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 02-09-2025</span>
                         </div>
                         <div className="announcement_item">
                             <p>{t("New Batch Enrollment Open Now")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-03-05</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 05-09-2025</span>
                         </div>
                         <div className="announcement_item">
                             <p>{t("Holiday Notice: Office Closed on March 10")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-03-10</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 10-09-2025</span>
                         </div>
                         <div className="announcement_item">
                             <p>{t("Upcoming Driving Test Schedule Updated")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-20</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 20-09-2025</span>
                         </div>
                         <div className="announcement_item">
                             <p>{t("New Batch Enrollment Open Now")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-03-05</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 05-09-2025</span>
                         </div>
                         <div className="announcement_item">
                             <p>{t("Holiday Notice: Office Closed on March 10")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-03-10</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 10-09-2025</span>
                         </div>
                     </div>
                 </div>
@@ -118,41 +118,41 @@ function Home() {
                         {/* More Information Section */}
                         <div className="list_item">
                             <p>{t("Eligibility criteria for new applicants updated")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-15</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 15-05-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("New syllabus released for advanced driving courses")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-18</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 18-05-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("Updated fee structure and payment options")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-22</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 22-05-2025</span>
                         </div>
 
                         {/* Achievements Section */}
                         <div className="list_item">
                             <p>{t("Trained over 10,000+ students successfully")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-01-10</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" />10-05-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("Received the Best Driving Institute Award 2023")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-01-25</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 25-05-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("95% pass rate in advanced driving test")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-05</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 05-06-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("95% pass rate in advanced driving test")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-05</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 05-06-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("95% pass rate in advanced driving test")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-05</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 05-05-2025</span>
                         </div>
                         <div className="list_item">
                             <p>{t("95% pass rate in advanced driving test")}</p>
-                            <span><FaRegCalendarAlt className="calendar-icon" /> 2024-02-05</span>
+                            <span><FaRegCalendarAlt className="calendar-icon" /> 05-05-2025</span>
                         </div>
                 
                     </div>
